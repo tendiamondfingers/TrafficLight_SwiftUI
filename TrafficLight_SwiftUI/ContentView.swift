@@ -31,7 +31,7 @@ struct ContentView: View {
             VStack (spacing: 60) {
                 VStack (spacing: 30) {
                     CircleLightView(color:
-                            .red,opacity: redLight.rawValue)
+                            .red, opacity: redLight.rawValue)
                     .shadow(color: .red, radius: 50)
                     CircleLightView(color:
                             .yellow, opacity: yellowLight.rawValue)
