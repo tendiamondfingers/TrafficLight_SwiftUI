@@ -32,10 +32,13 @@ struct ContentView: View {
                 VStack (spacing: 30) {
                     CircleLightView(color:
                             .red,opacity: redLight.rawValue)
+                    .shadow(color: .red, radius: 50)
                     CircleLightView(color:
                             .yellow, opacity: yellowLight.rawValue)
+                    .shadow(color: .yellow, radius: 50)
                     CircleLightView(color:
                             .green, opacity: greenLight.rawValue)
+                    .shadow(color: .green, radius: 50)
                 }
                 Button(action: {changeLightColor()}) {
                     ZStack {
